@@ -1,0 +1,10 @@
+{
+    "image": "./dist/png/image.png",
+    "imageCenter": { "x": 50, "y": 50 }, 
+    "imageZoom": 100, 
+    "xmax": 400, 
+    "ymax": 400,
+    "cutCenter": { "x": 60, "y": 60},
+    "zSafe": 1,
+    "cutDepth": -2
+}

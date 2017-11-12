@@ -1,0 +1,25 @@
+{
+  "name": "pathgen",
+  "version": "1.0.0",
+  "description": "gcode path generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/image ./dist/project.json ./dist/gcode/image.gcode"
+  },
+  "keywords": [
+    "cnc"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "png-js": "^0.1.1",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.18",
+    "@types/node": "^8.0.51"
+  }
+}
