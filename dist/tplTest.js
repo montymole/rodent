@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var tpl_1 = require("./tpl");
 var program = new tpl_1.default();
 var METRIC = program.METRIC, icut = program.icut, cut = program.cut, rapid = program.rapid, units = program.units, tool = program.tool, feed = program.feed, speed = program.speed, dwell = program.dwell;
-units(METRIC); // This must match the units of the DXF file
+units(METRIC); // set units
 tool(1); //select tool
 feed(123); //set feed rate to mm/second
 speed(20000); //spin RPM 
