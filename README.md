@@ -1,4 +1,5 @@
 # GCODE generator
+![result](https://raw.githubusercontent.com/montymole/rodent/master/result.png)
 
 Generate GCODE with TypeScript/Javascript using CAMotics TPL type of functions.
 
@@ -7,6 +8,8 @@ was lacking in possibilites to use image data for depth mapping.
 
 This is evoling project to support just that. Currontly supports TPL type of cut icut rapid irapid
 functions.
+
+
 
 
 
