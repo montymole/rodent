@@ -8,7 +8,7 @@ var program = new tpl_1.default();
 var METRIC = program.METRIC, cut = program.cut, rapid = program.rapid, units = program.units, tool = program.tool, feed = program.feed, speed = program.speed, dwell = program.dwell;
 var zSafe = 5;
 var cutDepth = -1.5;
-units(METRIC); // This must match the units of the DXF file
+units(METRIC); //units
 tool(1); //select tool
 feed(100); //set feed rate to mm/second
 speed(10000); //spin RPM 
