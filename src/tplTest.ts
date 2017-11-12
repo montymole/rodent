@@ -3,7 +3,7 @@ import TPL from './tpl';
 const program = new TPL();
 const { METRIC, icut, cut, rapid, units, tool, feed, speed, dwell } = program;
 
-units(METRIC); // This must match the units of the DXF file
+units(METRIC); // units 
 tool(1); //select tool
 feed(123);  //set feed rate to mm/second
 speed(20000); //spin RPM 
